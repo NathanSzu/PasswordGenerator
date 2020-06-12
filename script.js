@@ -19,6 +19,8 @@ generateBtn.addEventListener("click", writePassword);
 // Need a function to initiate the password generation code.
 
 
+// Function created to generate password
+
 function generatePassword() {
 
 // PROMPTED TO CHOOSE PASSOWRD LENGTH
@@ -26,6 +28,7 @@ function generatePassword() {
 // If else (if number is less than 8 or greater than 128, alert "Password must be between 8 and 128 characters.").
 // Else store number in VAR then continue with prompts.
 
+  pass = []
 
   var passLength = prompt("Enter a password length from 8 - 128");
 
